@@ -16,3 +16,17 @@ nombre = input('Dime tu nombre')
 print('Hola mi amigo ' + nombre)
 
 print(type(nombre))
+
+""" 
+CONVERSION DE VARIABLES
+"""
+edad = input('Dime tu edad')
+print(type(edad))
+edad = int(edad)
+print(type(edad))
+
+""" Para lograr imprimir esa variable debo 'formatear' la cadena de la siguiente forma: {} y al final .format(variables ha imprimir) """
+print('Tu nueva edad va a ser {} y al siguiente año sera {}'.format(edad+1, edad+2))
+
+""" Otra opcion mucho mas legible para imprimir cadenas con tipos mixtos es colocando la letra 'f' delante y las comillas con las variables dentro: """
+print(f'Tu nueva edad va a ser {edad+1} y al siguiente año sera {edad+2}')
