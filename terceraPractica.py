@@ -30,3 +30,8 @@ c='es'
 d='genial'
 e=(' ').join([a,b,c,d]) #El join solo funcion con listas y al principio pongo como quiero que esten unidos
 print(e)
+
+frase='Esta frase de texto es para reemplazar letras'
+frase_corta = frase.replace('a', 'leo') #Reemplazará todas las letras 'a' por 'leo'
+print(frase_corta)
+
