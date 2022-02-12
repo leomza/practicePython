@@ -34,4 +34,3 @@ print(e)
 frase='Esta frase de texto es para reemplazar letras'
 frase_corta = frase.replace('a', 'leo') #Reemplazará todas las letras 'a' por 'leo'
 print(frase_corta)
-
